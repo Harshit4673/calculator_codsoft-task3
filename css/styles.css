@@ -1,0 +1,96 @@
+body{
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);;
+}
+
+.outer{
+  margin: 5% auto 15% 450px;;
+  height: 620px;
+  width: 400px;
+  border-style: groove;
+  border-width: 0;
+  background-color: #080808;
+  border-radius: 5%;
+}
+
+.display{
+  height: 41px;
+  width: 280px;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  text-align: right;
+  margin: 40px auto 40px 50px;
+  padding-right: 15px;
+  padding-top: 75px;
+  border-style: none;
+  font-weight: lighter;
+  font-size: 40px;
+  background: transparent;
+  cursor: pointer;
+
+}
+
+.all-buttons{
+  height: 395px;
+  width: 360px;
+  border-color: #fff;
+  border-style: none;
+  border-width: 1px;
+  margin: 20px auto auto auto ;
+
+}
+
+.center-line{
+  width: 73%;
+  height: 0;
+  border: 0;
+}
+
+.order{
+list-style: none;
+display: flex;
+}
+
+button{
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 26px;
+  border-radius: 50%;
+  color: white;
+  background-color: #302F34;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+
+.row1 button{
+  background-color: #40465B;
+  color: #B4C6F6;
+}
+
+.right-side{
+  background-color: #40465B;
+  color: #B4C6F6;
+}
+
+.equals{
+  background-color: #B4C5FE;
+  font-size: 22px;
+}
+
+button:hover {
+  background-color: #46454A;
+}
+
+.row1 button:hover{
+  background-color: #575E71
+}
+
+.equals button:hover{
+  background-color: #535D78;
+}
